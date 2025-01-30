@@ -1,0 +1,6 @@
+services:
+  managementsys.deliveries.commands.api:
+    image: ${DOCKER_REGISTRY-}managementsysdeliveriescommandsapi
+    build:
+      context: .
+      dockerfile: ManagementSys.Deliveries.Commands.Api/Dockerfile

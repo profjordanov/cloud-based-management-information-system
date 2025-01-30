@@ -1,0 +1,11 @@
+@ManagementSys.Deliveries.Messages_HostAddress = http://localhost:5010
+
+GET {{ManagementSys.Deliveries.Messages_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ManagementSys.Deliveries.Messages_HostAddress}}/todos/1
+Accept: application/json
+
+###

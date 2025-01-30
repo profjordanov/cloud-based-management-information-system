@@ -1,0 +1,11 @@
+@ManagementSys.Deliveries.Commands.Api_HostAddress = http://localhost:5046
+
+GET {{ManagementSys.Deliveries.Commands.Api_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ManagementSys.Deliveries.Commands.Api_HostAddress}}/todos/1
+Accept: application/json
+
+###
